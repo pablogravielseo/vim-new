@@ -1,7 +1,9 @@
+delimitMate
 neobundle.vim
 nerdtree
 unite.vim
 vim-airline
+vim-slim
 vim-surround
 vimproc
 vimshell.vim
