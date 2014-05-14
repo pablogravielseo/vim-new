@@ -40,11 +40,12 @@ call neobundle#end()
 NeoBundleCheck
 
 let g:unite_source_history_yank_enable = 1
-d
 " Ctrl+p-like file searching
-nnoremap <leader>p :Unite -no-split file_rec/async<cr>
+nnoremap <leader>p :Unite -no-split -start-insert file_rec/async<cr>
+nnoremap <leader>ts :Unite -no-split -start-insert -default-action=vsplit file_rec/async<cr>
+nnoremap <leader>tt :Unite -no-split -start-insert -default-action=tabopen file_rec/async<cr>
 " Yank history searching
-nnoremap <leader>y :Unite -no-split history/yank<cr>
+nnoremap <leader>y :Unite -no-split -start-insert history/yank<cr>
 
 " Trailing whitespace removal
 function! RemoveTraillingSpaces()
