@@ -39,12 +39,12 @@ NeoBundle 'scrooloose/nerdtree'
 call neobundle#end()
 NeoBundleCheck
 
-" Ctrl+p-like file searching
-nnoremap <leader>p :Unite file_rec/async<cr>
-
-" Yank history searching
 let g:unite_source_history_yank_enable = 1
-nnoremap <leader>y :Unite history/yank<cr>
+d
+" Ctrl+p-like file searching
+nnoremap <leader>p :Unite -no-split file_rec/async<cr>
+" Yank history searching
+nnoremap <leader>y :Unite -no-split history/yank<cr>
 
 " Trailing whitespace removal
 function! RemoveTraillingSpaces()
