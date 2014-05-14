@@ -1,0 +1,8 @@
+base16-vim
+neobundle.vim
+nerdtree
+unite.vim
+vim-airline
+vim-surround
+vimproc
+vimshell.vim
