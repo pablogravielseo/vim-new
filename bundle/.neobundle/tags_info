@@ -1,8 +1,15 @@
+a.vim
 delimitMate
+moonscript-vim
 neobundle.vim
+nerdcommenter
 nerdtree
 unite.vim
 vim-airline
+vim-coffee-script
+vim-elixir
+vim-rails
+vim-sensible
 vim-slim
 vim-surround
 vimproc
