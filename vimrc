@@ -55,4 +55,51 @@ NeoBundle 'slim-template/vim-slim'
 call neobundle#end()
 NeoBundleCheck
 
+source $HOME/.vim/keymaps.vim
+
+function! RunSpec()
+  if executable('./script/test')
+    :!./script/test %
+  elseif executable('./b/rspec')
+    :!./b/rspec %
+  elseif executable('bundle')
+    :!bundle exec ruby -I'lib:app:test' %
+  endif
+endfunction
+
+" Abbreviations to keep me from going insane
+iab lenght length
+iab widht width
+iab heigth height
+iab vizualisação visualização
+cab W w
+cab Q q
+cab Wq wq
+cab WQ wq
+cab qw wq
+cab X x
+cab Xa xa
+cab xA xa
+cab Qa qa
+cab qA qa
+
+let g:unite_source_history_yank_enable = 1
+
+" Trailing whitespace removal
+function! RemoveTraillingSpaces()
+        let cursor_pos = getpos(".")
+        %s/[ \t]*$//g
+        call setpos(".", cursor_pos)
+endfunction
+
+" Airline config
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+
+" Rainbow parentheses
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+
 syntax on
