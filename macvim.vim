@@ -9,7 +9,7 @@ set guioptions-=r
 set guioptions-=e
 
 " GUI Font config
-set guifont=Monaco:h16
+set guifont=Inconsolata\ for\ Powerline:h16
 
 " Removing transparency on MacVim window
 set transparency=5
@@ -26,4 +26,3 @@ vmap <D-]> >gv
 
 " Start on fullscreen
 set fu
-
