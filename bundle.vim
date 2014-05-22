@@ -19,6 +19,7 @@ NeoBundle 'kana/vim-textobj-user'
 NeoBundle 'nelstrom/vim-textobj-rubyblock'
 NeoBundle 'SirVer/ultisnips'
 NeoBundle 'honza/vim-snippets'
+NeoBundle 'terryma/vim-multiple-cursors'
 
 " Language Bundles
 NeoBundle 'elixir-lang/vim-elixir'
