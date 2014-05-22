@@ -46,3 +46,8 @@ nnoremap Y y$
 
 " Remove all trailing whitespace
 nnoremap <silent> <leader><space> :call RemoveTraillingSpaces()<CR>
+
+" Alternate keymaps for splitting and such
+nnoremap <leader>aa :A<cr>
+nnoremap <leader>as :AV<cr>
+nnoremap <leader>aS :AS<cr>
