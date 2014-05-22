@@ -1,4 +1,5 @@
 set nocompatible
+
 filetype plugin indent on
 filetype on
 
@@ -45,12 +46,15 @@ NeoBundle 'morhetz/gruvbox'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'kana/vim-textobj-user'
 NeoBundle 'nelstrom/vim-textobj-rubyblock'
+NeoBundle 'SirVer/ultisnips'
+NeoBundle 'honza/vim-snippets'
 
 " Language Bundles
 NeoBundle 'elixir-lang/vim-elixir'
 NeoBundle 'leafo/moonscript-vim'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'slim-template/vim-slim'
+
 
 call neobundle#end()
 NeoBundleCheck
