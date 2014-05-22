@@ -380,6 +380,12 @@ airline-virtualenv	airline.txt	/*airline-virtualenv*
 airline-whitespace	airline.txt	/*airline-whitespace*
 airline-writing-extensions	airline.txt	/*airline-writing-extensions*
 airline.txt	airline.txt	/*airline.txt*
+b:clojure_syntax_keywords	clojure.txt	/*b:clojure_syntax_keywords*
+b:clojure_syntax_without_core_keywords	clojure.txt	/*b:clojure_syntax_without_core_keywords*
+clojure-about	clojure.txt	/*clojure-about*
+clojure-indent	clojure.txt	/*clojure-indent*
+clojure-introduction	clojure.txt	/*clojure-introduction*
+clojure.txt	clojure.txt	/*clojure.txt*
 config/rails.vim	rails.txt	/*config\/rails.vim*
 cs	surround.txt	/*cs*
 delimitMate	delimitMate.txt	/*delimitMate*
@@ -409,6 +415,8 @@ delimitMateSmartQuotes	delimitMate.txt	/*delimitMateSmartQuotes*
 delimitMateSyntax	delimitMate.txt	/*delimitMateSyntax*
 delimitMateTodo	delimitMate.txt	/*delimitMateTodo*
 ds	surround.txt	/*ds*
+ft-clojure-indent	clojure.txt	/*ft-clojure-indent*
+ft-clojure-syntax	clojure.txt	/*ft-clojure-syntax*
 fugitive	fugitive.txt	/*fugitive*
 fugitive#head(...)	fugitive.txt	/*fugitive#head(...)*
 fugitive#statusline()	fugitive.txt	/*fugitive#statusline()*
@@ -476,6 +484,15 @@ g:ack_use_dispatch	ack.txt	/*g:ack_use_dispatch*
 g:ackhighlight	ack.txt	/*g:ackhighlight*
 g:ackpreview	ack.txt	/*g:ackpreview*
 g:ackprg	ack.txt	/*g:ackprg*
+g:clojure_align_multiline_strings	clojure.txt	/*g:clojure_align_multiline_strings*
+g:clojure_align_subforms	clojure.txt	/*g:clojure_align_subforms*
+g:clojure_fold	clojure.txt	/*g:clojure_fold*
+g:clojure_fuzzy_indent	clojure.txt	/*g:clojure_fuzzy_indent*
+g:clojure_fuzzy_indent_blacklist	clojure.txt	/*g:clojure_fuzzy_indent_blacklist*
+g:clojure_fuzzy_indent_patterns	clojure.txt	/*g:clojure_fuzzy_indent_patterns*
+g:clojure_maxlines	clojure.txt	/*g:clojure_maxlines*
+g:clojure_special_indent_words	clojure.txt	/*g:clojure_special_indent_words*
+g:clojure_syntax_keywords	clojure.txt	/*g:clojure_syntax_keywords*
 g:rails_abbreviations	rails.txt	/*g:rails_abbreviations*
 g:rails_ctags_arguments	rails.txt	/*g:rails_ctags_arguments*
 g:rails_gem_projections	rails.txt	/*g:rails_gem_projections*

@@ -10,6 +10,7 @@ rainbow_parentheses.vim
 ultisnips
 unite.vim
 vim-airline
+vim-clojure-static
 vim-coffee-script
 vim-elixir
 vim-fugitive
