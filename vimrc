@@ -61,6 +61,11 @@ NeoBundleCheck
 
 source $HOME/.vim/keymaps.vim
 
+" Loading macvim config
+if has("gui_mac") || has("gui_macvim")
+  source $HOME/.vim/macvim.vim
+endif
+
 function! RunSpec()
   if executable('./script/test')
     :!./script/test %
