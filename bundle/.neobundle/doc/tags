@@ -102,6 +102,7 @@
 :UniteWithCurrentDir	unite.txt	/*:UniteWithCurrentDir*
 :UniteWithCursorWord	unite.txt	/*:UniteWithCursorWord*
 :UniteWithInput	unite.txt	/*:UniteWithInput*
+:UniteWithInputDirectory	unite.txt	/*:UniteWithInputDirectory*
 :UniteWithProjectDir	unite.txt	/*:UniteWithProjectDir*
 :VimProcBang	vimproc.txt	/*:VimProcBang*
 :VimProcRead	vimproc.txt	/*:VimProcRead*
@@ -536,6 +537,7 @@ g:unite_source_line_search_word_highlight	unite.txt	/*g:unite_source_line_search
 g:unite_source_menu_menus	unite.txt	/*g:unite_source_menu_menus*
 g:unite_source_process_enable_confirm	unite.txt	/*g:unite_source_process_enable_confirm*
 g:unite_source_rec_async_command	unite.txt	/*g:unite_source_rec_async_command*
+g:unite_source_rec_git_command	unite.txt	/*g:unite_source_rec_git_command*
 g:unite_source_rec_ignore_pattern	unite.txt	/*g:unite_source_rec_ignore_pattern*
 g:unite_source_rec_max_cache_files	unite.txt	/*g:unite_source_rec_max_cache_files*
 g:unite_source_rec_min_cache_files	unite.txt	/*g:unite_source_rec_min_cache_files*
@@ -1101,6 +1103,7 @@ unite-source-file/new	unite.txt	/*unite-source-file\/new*
 unite-source-file_point	unite.txt	/*unite-source-file_point*
 unite-source-file_rec	unite.txt	/*unite-source-file_rec*
 unite-source-file_rec/async	unite.txt	/*unite-source-file_rec\/async*
+unite-source-file_rec/git	unite.txt	/*unite-source-file_rec\/git*
 unite-source-find	unite.txt	/*unite-source-find*
 unite-source-function	unite.txt	/*unite-source-function*
 unite-source-grep	unite.txt	/*unite-source-grep*
