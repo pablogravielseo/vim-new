@@ -1,8 +1,9 @@
 " Ctrl+p-like file searching
 nnoremap <leader>p :Unite -no-split -start-insert file<cr>
+nnoremap <leader>tt :Unite -no-split -start-insert file_rec<cr>
 nnoremap <leader>ts :Unite -no-split -start-insert -default-action=vsplit file_rec<cr>
 nnoremap <leader>tS :Unite -no-split -start-insert -default-action=split file_rec<cr>
-nnoremap <leader>tt :Unite -no-split -start-insert -default-action=tabopen file_rec<cr>
+nnoremap <leader>tT :Unite -no-split -start-insert -default-action=tabopen file_rec<cr>
 " Yank history searching
 nnoremap <leader>y :Unite -no-split -start-insert history/yank<cr>
 " Buffer searching

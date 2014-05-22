@@ -93,6 +93,7 @@ cab Qa qa
 cab qA qa
 
 let g:unite_source_history_yank_enable = 1
+call unite#filters#matcher_default#use(['matcher_fuzzy'])
 
 " Trailing whitespace removal
 function! RemoveTraillingSpaces()
